@@ -15,6 +15,8 @@ import { FocusHistory } from './src/features/focusHistory';
 
 
 export default function App() {
+  console.log("yolo")
+  
   const [currentSubject, setCurrentSubject] = useState();
   const [history, setHistory] = useState([]);
   return (
